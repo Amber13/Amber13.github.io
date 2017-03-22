@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.03.2017, 8:07:33
+    Author     : Эмеральда
+*/
+
+@font-face{
+    font-family: Karla;
+    src: url(http://ddtestcase.usite.pro/Karla-Regular.ttf);
+}
+body {
+    background: #ccc;
+    color: white;
+    font-family: Karla;
+}
+
+.label{
+    text-transform: uppercase;
+}
+
+#enterform > * > * {
+    display: block;
+}
+
+#enterform {
+    background: white;
+    margin-top: -4em;
+}
+
+h1{
+    margin: 0;
+}
+
+#enter {
+    padding: 40px;
+}
+
+#enterform .label {
+    color: #ad807d;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+button[form='enter']{
+    font-weight: 600;
+}
+
+#chat {
+    position: absolute;
+    padding: 20px;
+    top:10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+@media screen and (min-width: 800px){
+    #chat{
+        top:50px;
+        bottom: 50px;
+        left: 50px;
+        right: 50px;
+    }
+}
+
+#enterform button {
+    width: 100%;
+    background: #00a0ff;
+    border: 0;
+    padding: 20px;
+    text-align: right;
+    color: #fff;
+    vertical-align: top;
+}
+
+#backing-top {
+    position: absolute;
+    height: 57%;
+    width: 100%;
+    background: #00a0ff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#logo {
+    /* background: url(Без-имени-1.png) top center no-repeat; */
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    background-size: contain;
+    width: 100%;
+    height: 40%;
+}
+
+input[type="text"], input[type="password"] {
+    border: transparent;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 1em 0;
+}
+
+#backing-bot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background: black;
+    z-index: -2;
+}
+
+#triangle {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    left: 0;
+    bottom: 0;
+    border-color: rgba(0,0,0,0.1);
+}
+
+#min_tria {
+    border: 0.5em solid transparent;
+    border-left: 0.7em solid white;
+    float: left;
+}
+
+#header {
+    background: url(http://ddtestcase.usite.pro/bez-imeni-1.png) bottom center no-repeat;
+    background-size: contain;
+    height: 60%;
+}
